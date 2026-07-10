@@ -1,0 +1,45 @@
+﻿<Page x:Class="ComputerCompanyClasses.ClientUpgradePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:local="clr-namespace:ComputerCompanyClasses"
+        mc:Ignorable="d"
+        d:DesignHeight="400" d:DesignWidth="800"
+        Title="Апгрейд ПК">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <TextBlock VerticalAlignment="Center" Margin="10,0,10,0" FontSize="25">Апгрейд ПК</TextBlock>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Margin="5,5,0,0">
+                <TextBlock Text="Опишите вахактеристики вашего ПК" Margin="5,5,5,5" FontSize="17"/>
+                <Button Click="AutoScan_click" Content="Выполнить диагностику" Margin="5,5,5,5" HorizontalAlignment="Left" FontSize="17"/>
+                <TextBlock Text="Процессор:" Margin="5,5,5,5" FontSize="17"/>
+                <TextBox HorizontalAlignment="Left" Width="250" Margin="5,5,5,5" VerticalAlignment="Top" FontSize="17"/>
+                <TextBlock Text="Видеокарта:" Margin="5,5,5,5" FontSize="17"/>
+                <TextBox HorizontalAlignment="Left" Width="250" Margin="5,5,5,5" VerticalAlignment="Top" FontSize="17"/>
+                <TextBlock Text="Материнская плата:" Margin="5,5,5,5" FontSize="17"/>
+                <TextBox HorizontalAlignment="Left" Width="250" Margin="5,5,5,5" VerticalAlignment="Top" FontSize="17"/>
+                <TextBlock Text="Объям памяти:" Margin="5,5,5,5" FontSize="17"/>
+                <TextBox HorizontalAlignment="Left" Width="250" Margin="5,5,5,5" VerticalAlignment="Top" FontSize="17"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="5,5,5,0">
+                <TextBlock Text="Какие изменения вы хотите?" Margin="5,5,5,5" FontSize="17" HorizontalAlignment="Right"/>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Name="Consultation" GroupName="UpgradeGroup" Content="Консультация в апгрейде" />
+                    <RadioButton Name="IKnowWhatIWant" GroupName="UpgradeGroup" Content="Я знаю чего хочу" Margin="10,0,0,0"/>
+                </StackPanel>
+                <TextBlock Text="Пожелания:" Margin="5,5,5,5"  HorizontalAlignment="Left"/>
+                <TextBox HorizontalAlignment="Stretch" TextWrapping="Wrap"/>
+                <Button Name="OrderUpgrade" Content="Заказать улучшение" HorizontalAlignment="Right" FontSize="20" Height="25" Click="OrderUpgrade_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

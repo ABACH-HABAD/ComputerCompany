@@ -1,0 +1,732 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\peter\\Desktop\\ComputerCompany\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\radiostation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\radiostation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|C:\\Users\\peter\\Desktop\\ComputerCompany\\computercompanyclasses\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\dbtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\dbtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\assembly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\assembly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\motherboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\motherboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\frame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\frame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\power_unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\power_unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|C:\\Users\\peter\\Desktop\\ComputerCompany\\computercompanyclasses\\gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|C:\\Users\\peter\\Desktop\\ComputerCompany\\computercompanyclasses\\cpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\cpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\musicwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\musicwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|c:\\users\\peter\\desktop\\computercompany\\computercompanyclasses\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A4B151-C5CE-4A6C-B739-BD5F9C219912}|ComputerCompanyClasses\\ComputerCompanyClasses.csproj|solutionrelative:computercompanyclasses\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\accounteditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\accounteditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\passwordresetdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\passwordresetdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\databaseadddatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\databaseadddatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\admindatabasepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\admindatabasepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\managerdatabasepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\managerdatabasepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\changedisplayname.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\changedisplayname.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\informationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\informationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\qrpay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\qrpay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\cardpay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\cardpay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\clientshoppingcartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\clientshoppingcartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\clientupgradepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\clientupgradepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\clientbuildpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\clientbuildpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\clientcomponentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\clientcomponentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\clientmainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\clientmainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\authorizationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\authorizationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\welcomewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\welcomewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\welcomewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\welcomewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\musicwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\musicwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF520EA-A67C-493B-BC28-265A34A34381}|UnitTestProject\\UnitTestProject.csproj|C:\\Users\\peter\\Desktop\\ComputerCompany\\unittestproject\\testassemblyinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF520EA-A67C-493B-BC28-265A34A34381}|UnitTestProject\\UnitTestProject.csproj|solutionrelative:unittestproject\\testassemblyinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF520EA-A67C-493B-BC28-265A34A34381}|UnitTestProject\\UnitTestProject.csproj|C:\\Users\\peter\\Desktop\\ComputerCompany\\unittestproject\\accounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF520EA-A67C-493B-BC28-265A34A34381}|UnitTestProject\\UnitTestProject.csproj|solutionrelative:unittestproject\\accounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|c:\\users\\peter\\desktop\\computercompany\\wpfapp9\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F63D9BF3-FF47-46B2-97E8-F94D3D1AFA75}|WpfApp9\\ComputerCompany.csproj|solutionrelative:wpfapp9\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RadioStation.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\RadioStation.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\RadioStation.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\RadioStation.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\RadioStation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:28:11.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\ShoppingCart.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\ShoppingCart.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:27:23.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Review.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\Review.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Review.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\Review.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAwNYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:27:20.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBType.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\DBType.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\DBType.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\DBType.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\DBType.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:26:56.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Assembly.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Assembly.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\Assembly.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Assembly.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\Assembly.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAAwL0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:26:44.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Motherboard.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Motherboard.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\Motherboard.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Motherboard.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\Motherboard.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:26:28.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Frame.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Frame.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\Frame.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Frame.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\Frame.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:26:10.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Power_unit.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Power_unit.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\Power_unit.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Power_unit.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\Power_unit.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAwwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:25:58.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Storage.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Storage.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\Storage.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Storage.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\Storage.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAwwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:25:43.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Memory.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Memory.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\Memory.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Memory.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\Memory.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAwwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:25:23.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Component.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Component.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\Component.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Component.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\Component.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:24:26.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Product.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\Product.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Product.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\Product.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:24:12.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Song.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\Song.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Song.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\Song.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:55:54.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountEditDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\AccountEditDialog.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\AccountEditDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\AccountEditDialog.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\AccountEditDialog.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:22:51.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PasswordResetDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\PasswordResetDialog.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\PasswordResetDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\PasswordResetDialog.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\PasswordResetDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:22:31.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DataBaseAddDataWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\DataBaseAddDataWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\DataBaseAddDataWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\DataBaseAddDataWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\DataBaseAddDataWindow.xaml.cs",
+              "ViewState": "AgIAAC0BAAAAAAAAAAAwwF8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:22:00.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminDataBasePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\AdminDataBasePage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\AdminDataBasePage.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\AdminDataBasePage.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\AdminDataBasePage.xaml.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:20:57.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ManagerDataBasePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ManagerDataBasePage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\ManagerDataBasePage.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ManagerDataBasePage.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\ManagerDataBasePage.xaml.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAowJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:20:33.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GPU.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\GPU.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\GPU.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\GPU.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\GPU.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAwwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:44:05.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CPU.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\CPU.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\CPU.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\CPU.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\CPU.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T18:03:23.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChangeDisplayName.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ChangeDisplayName.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\ChangeDisplayName.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ChangeDisplayName.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\ChangeDisplayName.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:19:50.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Account.cs",
+              "RelativeDocumentMoniker": "ComputerCompanyClasses\\Account.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\ComputerCompanyClasses\\Account.cs",
+              "RelativeToolTip": "ComputerCompanyClasses\\Account.cs",
+              "ViewState": "AgIAALEBAAAAAAAAAAAuwOMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:32:32.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MusicWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\MusicWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\MusicWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\MusicWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\MusicWindow.xaml.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAiwBYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:49:46.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InformationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\InformationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\InformationWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\InformationWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\InformationWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:19:25.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "QRPay.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\QRPay.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\QRPay.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\QRPay.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\QRPay.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:18:50.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CardPay.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\CardPay.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\CardPay.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\CardPay.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\CardPay.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:16:27.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Profile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\Profile.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\Profile.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\Profile.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\Profile.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:16:20.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ClientShoppingCartPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ClientShoppingCartPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\ClientShoppingCartPage.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ClientShoppingCartPage.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\ClientShoppingCartPage.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:15:56.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ClientUpgradePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ClientUpgradePage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\ClientUpgradePage.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ClientUpgradePage.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\ClientUpgradePage.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:15:40.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ClientBuildPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ClientBuildPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\ClientBuildPage.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ClientBuildPage.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\ClientBuildPage.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:15:21.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ClientMainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ClientMainPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\ClientMainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ClientMainPage.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\ClientMainPage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:14:38.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthorizationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\AuthorizationPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\AuthorizationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\AuthorizationPage.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\AuthorizationPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:08:55.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\RegistrationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\RegistrationPage.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:08:30.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "WelcomeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\WelcomeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\WelcomeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\WelcomeWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\WelcomeWindow.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:06:45.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ClientComponentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ClientComponentPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\ClientComponentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\ClientComponentPage.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\ClientComponentPage.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:55:22.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MusicWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\MusicWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp9\\MusicWindow.xaml",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\MusicWindow.xaml",
+              "RelativeToolTip": "WpfApp9\\MusicWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-12T17:47:56.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp9\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp9\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAAAQwDQBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:47:20.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WelcomeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\WelcomeWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp9\\WelcomeWindow.xaml",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\WelcomeWindow.xaml",
+              "RelativeToolTip": "WpfApp9\\WelcomeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-12T18:59:58.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TestAssemblyInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\UnitTestProject\\TestAssemblyInitializer.cs",
+              "RelativeDocumentMoniker": "UnitTestProject\\TestAssemblyInitializer.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\UnitTestProject\\TestAssemblyInitializer.cs",
+              "RelativeToolTip": "UnitTestProject\\TestAssemblyInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:04:20.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AccountTests.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\UnitTestProject\\AccountTests.cs",
+              "RelativeDocumentMoniker": "UnitTestProject\\AccountTests.cs",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\UnitTestProject\\AccountTests.cs",
+              "RelativeToolTip": "UnitTestProject\\AccountTests.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:02:20.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Profile.xaml",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\Profile.xaml",
+              "RelativeDocumentMoniker": "WpfApp9\\Profile.xaml",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\Profile.xaml",
+              "RelativeToolTip": "WpfApp9\\Profile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T16:02:40.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp9\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\ComputerCompany\\WpfApp9\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp9\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T15:39:45.535Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

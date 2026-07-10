@@ -1,0 +1,394 @@
+﻿<Window x:Class="ComputerCompanyClasses.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComputerCompanyClasses"
+        mc:Ignorable="d"
+        Title="Информационная система «Компьютерная компания» — Главное окно"
+        ResizeMode="CanResize"
+        Height="900" Width="1400"
+        Closing="OnClosing">
+    <Grid x:Name="ContentGrid">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+
+        <MediaElement Name="mediaPlayer" Source="pack://application:,,,/ComputerCompany;component/Resources/Sounds/YouHaveSuccessfullyLoggedIn.mp3"/>
+
+        <GroupBox Grid.Row="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <GroupBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform Angle="90" CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="Red"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                    <GradientStop Color="Blue" Offset="0.333"/>
+                    <GradientStop Color="Lime" Offset="0.667"/>
+                </LinearGradientBrush>
+            </GroupBox.Background>
+
+            <Grid Grid.Row="0" Background="#00000000" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="8*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button 
+                    x:Name="HomeButton"
+                    Content="🏠"
+                    VerticalAlignment="Center" FontSize="55"
+                    Click="HomeButton_Click"
+                    />
+
+                <TextBlock 
+                    Grid.Column="1"
+                    FontFamily="Arial Black" 
+                    FontSize="50" 
+                    Foreground="Black" 
+                    TextWrapping="NoWrap" 
+                    TextAlignment="Center"
+                    FlowDirection="RightToLeft"
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    Background="#00000000" TextTrimming="CharacterEllipsis">
+                    <TextBlock.Text>
+                        Компьютерная компания
+                    </TextBlock.Text>
+                </TextBlock>
+
+                <Grid Grid.Column="2" Background="#00000000">
+                    <Border x:Name="border"
+                                CornerRadius="30" 
+                                BorderThickness="12"
+                                BorderBrush="#00000000" 
+                                Background="#FF252525">
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="5" ShadowDepth="2" Color="#40000000"/>
+                        </Border.Effect>
+                    </Border>
+                    <Grid Background="#00000000">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20*"/>
+                            <ColumnDefinition Width="5*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Background="#00000000">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" 
+                                   x:Name="AccountName" 
+                                   Content="Имя аккаунта" 
+                                   FontSize="25" 
+                                   HorizontalAlignment="Right" 
+                                   VerticalContentAlignment="Center" 
+                                   HorizontalContentAlignment="Right"
+                                   VerticalAlignment="Center" 
+                                   Margin="10,8,10,0" 
+                                   Height="47"/>
+                            <Grid Grid.Row ="1" Background="#00000000">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="15*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Row="0" 
+                                   FontFamily="Arial Black"
+                                   x:Name="JobTitle" 
+                                   Text="Администратор" 
+                                   FontSize="25" 
+                                   HorizontalAlignment="Left" 
+                                   Margin="20,0,0,0" 
+                                   Height="47" Foreground="#FFFFFF7D"
+                                           TextTrimming="CharacterEllipsis"/>
+                                <Button Name="Logout_Button" 
+                                        Content="Выйти" 
+                                        Grid.Column="1" 
+                                        FontSize="22.5" 
+                                        Height="30" 
+                                        HorizontalAlignment="Stretch" 
+                                        VerticalAlignment="Stretch" 
+                                        Margin="5,0,10,10" Click="Logout_Click">
+                                    <Button.Template>
+                                        <ControlTemplate TargetType="Button">
+                                            <Grid>
+                                                <Border x:Name="border"
+                                                    CornerRadius="15"
+                                                    Background="#FF303030" 
+                                                    BorderThickness="3">
+                                                    <Border.BorderBrush>
+                                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad">
+                                                            <LinearGradientBrush.RelativeTransform>
+                                                                <TransformGroup>
+                                                                    <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                                                    <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                                                                    <RotateTransform Angle="90" CenterX="0.5" CenterY="0.5"/>
+                                                                    <TranslateTransform/>
+                                                                </TransformGroup>
+                                                            </LinearGradientBrush.RelativeTransform>
+                                                            <GradientStop Color="Red"/>
+                                                            <GradientStop Color="Red" Offset="1"/>
+                                                            <GradientStop Color="Blue" Offset="0.333"/>
+                                                            <GradientStop Color="Lime" Offset="0.667"/>
+                                                        </LinearGradientBrush>
+                                                    </Border.BorderBrush>
+                                                    <Border.Effect>
+                                                        <DropShadowEffect BlurRadius="5" ShadowDepth="2" Color="#40000000"/>
+                                                    </Border.Effect>
+                                                </Border>
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Grid>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+                                                    <Setter TargetName="border" Property="Background" Value="#FF404040"/>
+                                                </Trigger>
+                                                <Trigger Property="IsPressed" Value="True">
+                                                    <Setter TargetName="border" Property="Background" Value="#FF606060"/>
+                                                    <Setter TargetName="border" Property="Effect">
+                                                        <Setter.Value>
+                                                            <DropShadowEffect BlurRadius="3" ShadowDepth="1" Color="#40000000"/>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Button.Template>
+                                </Button>
+                            </Grid>
+                        </Grid>
+                        <Grid Grid.Column="1" Background="{x:Null}" Margin="10,0,20,0" Height="70" Width="70" >
+                            <Button 
+                                Name="MyAccount"
+                                Click="MyAccount_Click"
+                                Margin="0,0,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="{x:Null}">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <Grid x:Name="MyAccountGrid" Background="{x:Null}">
+                                            <Border 
+                                                x:Name="border"
+                                                CornerRadius="50" 
+                                                BorderThickness="2">
+                                                <Border.BorderBrush>
+                                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad">
+                                                        <LinearGradientBrush.RelativeTransform>
+                                                            <TransformGroup>
+                                                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                                                <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                                                                <RotateTransform Angle="90" CenterX="0.5" CenterY="0.5"/>
+                                                                <TranslateTransform/>
+                                                            </TransformGroup>
+                                                        </LinearGradientBrush.RelativeTransform>
+                                                        <GradientStop Color="Red"/>
+                                                        <GradientStop Color="Red" Offset="1"/>
+                                                        <GradientStop Color="Blue" Offset="0.333"/>
+                                                        <GradientStop Color="Lime" Offset="0.667"/>
+                                                    </LinearGradientBrush>
+                                                </Border.BorderBrush>
+                                                <Border.Effect>
+                                                    <DropShadowEffect BlurRadius="5" ShadowDepth="2" Color="#40000000"/>
+                                                </Border.Effect>
+                                            </Border>
+                                            <Border
+                                                Name="imageBorder"
+                                                CornerRadius="50"
+                                                BorderThickness="2">
+                                                <Border.Background>
+                                                    <ImageBrush x:Name="ProfileImage" Stretch="Fill"/>
+                                                </Border.Background>
+                                                <Border.BorderBrush>
+                                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                        <GradientStop Color="Red" Offset="0"/>
+                                                        <GradientStop Color="Blue" Offset="0.333"/>
+                                                        <GradientStop Color="Lime" Offset="0.667"/>
+                                                        <GradientStop Color="Red" Offset="1"/>
+                                                    </LinearGradientBrush>
+                                                </Border.BorderBrush>
+                                            </Border>
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="border" Property="Background" Value="#FF404040"/>
+                                                <Setter TargetName="imageBorder" Property="Opacity" Value="0.8"/>
+                                            </Trigger>
+                                            <Trigger Property="IsPressed" Value="True">
+                                                <Setter TargetName="border" Property="Background" Value="#FF606060"/>
+                                                <Setter TargetName="imageBorder" Property="Opacity" Value="0.6"/>
+                                                <Setter TargetName="border" Property="Effect">
+                                                    <Setter.Value>
+                                                        <DropShadowEffect BlurRadius="3" ShadowDepth="1" Color="#40000000"/>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </GroupBox>
+
+        <Grid Grid.Row="1" Background="#FF2D2D25" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0" x:Name="DataBaseSlot"/>
+                <ColumnDefinition Width="0" x:Name="EmployesSlot"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Комплектующие" Grid.Column="0" Name="Components" FontSize="20" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="Components_Click"/>
+            <Button Content="Апгрейд ПК" Grid.Column="1" Name="Upgrade" FontSize="20" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="Upgrade_Click"/>
+            <Button Content="Заказать сборку" Grid.Column="2" Name="Order" FontSize="20" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="Order_Click"/>
+            <Button Content="Корзина" Grid.Column="3" Name="Basket" FontSize="20" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="Basket_Click"/>
+            <Grid Grid.Column="4" Background="#FF8B943E">
+                <Button Content="База данных" Name="DataBase" FontSize="20" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="DataBase_Click"/>
+            </Grid>
+            <Grid Grid.Column="5" Background="#FF8B943E">
+                <Button Content="Аккаунты" Name="Empolyees" FontSize="20" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="Employers_Click"/>
+            </Grid>
+            <Button Content="Музыка" Grid.Column="6" Name="Player" FontSize="20" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="Player_Click">
+            </Button>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="1*" Name="BottomPad"/>
+            </Grid.RowDefinitions>
+
+            <Frame Name="MainFrame" Margin="20,20,20,20"
+                   NavigationUIVisibility="Hidden"
+                   LoadCompleted="MainFrame_LoadCompleted"/>
+
+            <Grid Grid.Row="1" Background="#FF1E1E1E">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Margin="30,20,30,20">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad">
+                            <LinearGradientBrush.RelativeTransform>
+                                <TransformGroup>
+                                    <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                    <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                                    <RotateTransform Angle="90" CenterX="0.5" CenterY="0.5"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </LinearGradientBrush.RelativeTransform>
+                            <GradientStop Color="Red"/>
+                            <GradientStop Color="Red" Offset="1"/>
+                            <GradientStop Color="Blue" Offset="0.333"/>
+                            <GradientStop Color="Lime" Offset="0.667"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Grid Margin="5,5,5,5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="4*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,0,10,0" FontSize="16" VerticalAlignment="Center">
+                                <Hyperlink NavigateUri="">Отзывы:</Hyperlink>
+                        </TextBlock>
+                        <Grid Grid.Row="1" Margin="7,7,7,7" Background="#FF373737">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Background="{x:Null}">
+                                <Border 
+                                x:Name="border1"
+                                CornerRadius="50" 
+                                BorderThickness="2" Width="80" Height="73">
+                                    <Border.BorderBrush>
+                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad">
+                                            <LinearGradientBrush.RelativeTransform>
+                                                <TransformGroup>
+                                                    <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                                    <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                                                    <RotateTransform Angle="90" CenterX="0.5" CenterY="0.5"/>
+                                                    <TranslateTransform/>
+                                                </TransformGroup>
+                                            </LinearGradientBrush.RelativeTransform>
+                                            <GradientStop Color="Red"/>
+                                            <GradientStop Color="Red" Offset="1"/>
+                                            <GradientStop Color="Blue" Offset="0.333"/>
+                                            <GradientStop Color="Lime" Offset="0.667"/>
+                                        </LinearGradientBrush>
+                                    </Border.BorderBrush>
+                                    <Border.Effect>
+                                        <DropShadowEffect BlurRadius="5" ShadowDepth="2" Color="#40000000"/>
+                                    </Border.Effect>
+                                </Border>
+                                <Border
+                                Name="imageBorder_review"
+                                CornerRadius="50"
+                                BorderThickness="2"
+                                Width="80" Height="80">
+                                    <Border.Background>
+                                        <ImageBrush ImageSource="/Resources/Images/WelcomePC1.png" Stretch="Fill"/>
+                                    </Border.Background>
+                                    <Border.BorderBrush>
+                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                            <GradientStop Color="Red" Offset="0"/>
+                                            <GradientStop Color="Blue" Offset="0.333"/>
+                                            <GradientStop Color="Lime" Offset="0.667"/>
+                                            <GradientStop Color="Red" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Border.BorderBrush>
+                                </Border>
+                            </Grid>
+                            <StackPanel Grid.Column="1">
+                                <Label  Name="ReviewNickname" Margin="5,0,5,2" HorizontalAlignment="Left" FontWeight="Bold" Height="25"/>
+                                <Label  Name="ReviewStars" Margin="5,-10,5,0" HorizontalAlignment="Left" FontWeight="Bold" Height="25" Background="{x:Null}"/>
+                                <TextBlock  Name="ReviewMessage" Margin="10,-5,5,5" HorizontalAlignment="Left" FontWeight="Bold" Background="{x:Null}" Foreground="#FFCCCCCC" TextWrapping="Wrap" TextTrimming="WordEllipsis" TextAlignment="Justify"/>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+                <StackPanel
+                    Grid.Column="1" 
+                    Background="{x:Null}" 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                    ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                    <StackPanel.Resources>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="FontFamily" Value="Arial Black"/>
+                            <Setter Property="Foreground" Value="#FFCCCCCC" />
+                            <Setter Property="Margin" Value="10,10,10,10"/>
+                            <Setter Property="FontSize" Value="16"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <TextBlock x:Name="WeAreInSocialNetworks" HorizontalAlignment="Center" TextDecorations="Underline" Text = "Мы в соц. сетях" PreviewMouseDown="WeAreInSocialNetworks_PreviewMouseDown"/>
+                    <TextBlock x:Name="StoreLicense" HorizontalAlignment="Center" TextDecorations="Underline" Text = "Лицензия магазина" PreviewMouseDown="StoreLicense_PreviewMouseDown"/>
+                    <TextBlock x:Name="AboutTheCompany" HorizontalAlignment="Center" TextDecorations="Underline" Text = "О компании" PreviewMouseDown="AboutTheCompany_PreviewMouseDown"/>
+                    <TextBlock FontSize="8" Foreground="#FF868686">OOO MixPC 2025 все права защищены</TextBlock>
+                </StackPanel>
+
+                <Button Content="Написать в тех. поддержку" Grid.Column="2" FontSize="20" Margin="0,0,15,15" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>

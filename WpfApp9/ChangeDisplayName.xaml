@@ -1,0 +1,24 @@
+﻿<Window x:Class="ComputerCompanyClasses.ChangeDisplayName"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComputerCompanyClasses"
+        ResizeMode="NoResize"
+        mc:Ignorable="d"
+        Title="Смена имени" Width="300">
+    <Grid>
+        <StackPanel>
+            <Label Name="FirstNameLable" Content="Имя:" HorizontalAlignment="Left" Margin="5,5,5,5"/>
+            <TextBox Name="FirstName" HorizontalAlignment="Stretch" Margin="5,0,5,0"/>
+            <Grid Margin="0,10,0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Name="Accept" Content="Применить" Grid.Column="0" Height="25" Margin="5,5,5,5" HorizontalAlignment="Stretch" Click="Accept_Click"/>
+                <Button Name="Declare" Content="Отменить" Grid.Column="1" Height="25" Margin="5,5,5,5" HorizontalAlignment="Stretch" Click="Declare_Click"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>
