@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\peter\Desktop\ComputerCompany\WpfApp9\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AccountEditDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminDataBasePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AuthorizationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CardPay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChangeDisplayName.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClientBuildPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClientComponentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClientMainPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClientShoppingCartPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClientUpgradePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataBaseAddDataWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DeleteAccount.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InformationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManagerDataBasePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MusicWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PasswordResetDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Profile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="QRPay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RegistrationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WelcomeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AuthorizationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChangeDisplayName.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientBuildPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientComponentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientMainPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientShoppingCartPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientUpgradePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MusicWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Profile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RegistrationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WelcomeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

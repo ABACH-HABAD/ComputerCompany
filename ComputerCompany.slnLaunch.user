@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "WebApi+Wpf",
+    "Projects": [
+      {
+        "Path": "src\\ComputerCompany.Client\\ComputerCompany.Presentation.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\ComputerCompany.WebApi\\ComputerCompany.WebApi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

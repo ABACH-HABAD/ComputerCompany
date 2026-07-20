@@ -1,0 +1,12 @@
+﻿{
+    "profiles": {
+        "Docker Compose": {
+            "commandName": "DockerCompose",
+            "commandVersion": "1.0",
+            "composeProjectPath": "docker-compose.yml",
+            "serviceActions": {
+                "computercompany.webapi": "StartDebugging"
+            }
+        }
+    }
+}
