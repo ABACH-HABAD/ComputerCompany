@@ -6,7 +6,8 @@
             context: .
             dockerfile: src/ComputerCompany.WebApi/Dockerfile
         ports:
-            - "80:8080"
+            - "5003:8080"
+            - "5004:8081"
         environment:
             - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=computer-company;Username=root;Password=123456789;
         depends_on:

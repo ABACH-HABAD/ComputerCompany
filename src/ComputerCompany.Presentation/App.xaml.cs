@@ -28,7 +28,7 @@ public partial class App : System.Windows.Application
         HostBuilder builder = new();
 
         string basePath = AppContext.BaseDirectory;
-        string appsettingsPath = Path.Combine(basePath, "appsettings.Development.json");
+        string appsettingsPath = Path.Combine(basePath, "appsettings.json");
 
         ConfigurationBuilder configurationBuilder = new();
         configurationBuilder.SetBasePath(Directory.GetCurrentDirectory());

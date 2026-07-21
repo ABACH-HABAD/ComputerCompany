@@ -294,7 +294,7 @@ CREATE TABLE public."Storages" (
 -- Data for Name: Accounts; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-INSERT INTO public."Accounts" VALUES ('019f794d-c816-7b8a-b020-dc69f38f702d', 'admin@computercompany.com', 'nIx6CvUCnXy1JHq7UV7z4burruX8gv/alVpj4bYbqwo=', 'Админ', '4a93cc32-358b-4184-98b9-af3b12a55e52');
+INSERT INTO public."Accounts" VALUES ('019f794d-c816-7b8a-b020-dc69f38f702d', 'admin@computercompany.com', 'gSLLoSuJeqVUa6+Qtsgsn2Rvl2s1VQM8vF4LctT3pbw=', 'Админ', '4a93cc32-358b-4184-98b9-af3b12a55e52');
 
 
 --
