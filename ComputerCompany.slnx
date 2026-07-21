@@ -4,7 +4,7 @@
   </Project>
   <Project Path="src/ComputerCompany.Application.Client/ComputerCompany.Application.Client.csproj" />
   <Project Path="src/ComputerCompany.Application/ComputerCompany.Application.csproj" />
-  <Project Path="src/ComputerCompany.Client/ComputerCompany.Presentation.csproj" />
+  <Project Path="src/ComputerCompany.Presentation/ComputerCompany.Presentation.csproj" />
   <Project Path="src/ComputerCompany.Core/ComputerCompany.Core.csproj" />
   <Project Path="src/ComputerCompany.Infrastructure/ComputerCompany.Infrastructure.csproj" />
   <Project Path="src/ComputerCompany.WebApi/ComputerCompany.WebApi.csproj" />

@@ -3,11 +3,11 @@
     "Name": "WebApi+Wpf",
     "Projects": [
       {
-        "Path": "src\\ComputerCompany.Client\\ComputerCompany.Presentation.csproj",
+        "Path": "src\\ComputerCompany.WebApi\\ComputerCompany.WebApi.csproj",
         "Action": "Start"
       },
       {
-        "Path": "src\\ComputerCompany.WebApi\\ComputerCompany.WebApi.csproj",
+        "Path": "src\\ComputerCompany.Presentation\\ComputerCompany.Presentation.csproj",
         "Action": "Start"
       }
     ]
