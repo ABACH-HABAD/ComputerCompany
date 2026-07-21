@@ -15,7 +15,7 @@
 1. Скачайте репозиторий
 2. Убедитесь, что у вас установлен ***<u>Docker</u>*** (если нет, то скачать его можно тут -> https://www.docker.com/products/docker-desktop/)
 3. Соберите проект через ***<u>PowerShell</u>*** команду ```docker-compose up -d``` в папке скачанного репозитория
-4. Скачайте и разархивируйте клиентские приложения в https://github.com/ABACH-HABAD/ComputerCompany/releases/tag/release (или соберите их самостоятельно с помощью ***Visual Studio*** или выполнив команду ```dotnet run``` в папке ```src\ComputerCompany.Presentation```)
+4. Скачайте и разархивируйте клиентские приложения в https://github.com/ABACH-HABAD/ComputerCompany/releases/tag/Release (или соберите их самостоятельно с помощью ***Visual Studio*** или выполнив команду ```dotnet run``` в папке ```src\ComputerCompany.Presentation```)
 5. Приложение готово к использованию
   
 ## Скриншоты:  
