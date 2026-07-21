@@ -61,12 +61,16 @@
                     Content="Я знаю чего хочу" 
                     Margin="10,0,0,0"/>
                 </StackPanel>
-                <TextBlock Text="Пожелания:" Margin="5,5,5,5"  HorizontalAlignment="Left"/>
-                <TextBox 
-                FontSize="18"
-                Text="{Binding Preferences}"
-                HorizontalAlignment="Stretch" 
-                TextWrapping="Wrap"/>
+                <Grid Style="{StaticResource ConsultationModeGrid}">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Пожелания:" Margin="5,5,5,5"  HorizontalAlignment="Left"/>
+                        <TextBox 
+                    FontSize="18"
+                    Text="{Binding Preferences}"
+                    HorizontalAlignment="Stretch" 
+                    TextWrapping="Wrap"/>
+                    </StackPanel>
+                </Grid>
                 <Button 
                 Command="{Binding OrderUpgradeCommand}"
                 Name="OrderUpgrade" 

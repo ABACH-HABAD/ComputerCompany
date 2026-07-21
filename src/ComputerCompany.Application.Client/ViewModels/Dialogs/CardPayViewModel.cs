@@ -89,7 +89,7 @@ public class CardPayViewModel : BaseDialogViewModel
         }
     }
 
-    public string Name
+    public string OwnerName
     {
         get => _name;
         set
@@ -133,11 +133,14 @@ public class CardPayViewModel : BaseDialogViewModel
             _messageService.ShowErrorMessage("Введите дату истечения срока использования");
             return;
         }
-        if (Name == string.Empty || Name == null)
+        if (OwnerName == string.Empty || OwnerName == null)
         {
             _messageService.ShowErrorMessage("Введите имя латинскими буквами");
             return;
         }
+
+        ResultData = new { Number = $"{First4}{Second4}{Third4}{Fourth4}", CvvCvc, Year, Month, OwnerName };
+
         DialogResult = true;
     }
 }

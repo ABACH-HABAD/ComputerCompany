@@ -135,7 +135,7 @@ public class MainViewModel : BaseViewModel, IWindowViewModel, INavigationOwnerVi
         NavigateToComponentsUserControlCommand = new RelayCommand(_navigationService.NavigateTo<ComponentsViewModel>);
         NavigateToUpgradeUserControlCommand = new RelayCommand(_navigationService.NavigateTo<UpgradeViewModel>);
         NavigateToOrderUserControlCommand = new RelayCommand(_navigationService.NavigateTo<BuildViewModel>);
-        NavigateToBasketUserControlCommand = new RelayCommand(_navigationService.NavigateTo<BasketViewModel>);
+        NavigateToBasketUserControlCommand = new RelayCommand(_navigationService.NavigateTo<ShoppingCartViewModel>);
         NavigateToDataBaseUserControlCommand = new RelayCommand(_navigationService.NavigateTo<AdminDataBaseViewModel>);
         NavigateToEmployeesUserControlCommand = new RelayCommand(_navigationService.NavigateTo<ManagerDataBaseViewModel>);
         NavigateToProfileUserControlCommand = new RelayCommand(_navigationService.NavigateTo<ProfileViewModel>);

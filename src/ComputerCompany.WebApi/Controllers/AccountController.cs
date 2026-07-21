@@ -136,4 +136,20 @@ public class AccountController : BaseDataController<AccountModel, IAccountServic
         if (result.IsSuccess) return Ok(result);
         else return BadRequest(result);
     }
+
+    [Authorize]
+    [HttpPost("image")]
+    public async Task<IActionResult> UploadImage(IFormFile file)
+    {
+        if (file == null || file.Length == 0) return BadRequest("Файл не выбран");
+
+        var path = Path.Combine(Directory.GetCurrentDirectory(), "userimages", file.FileName);
+
+        using (FileStream stream = new(path, FileMode.Create))
+        {
+            await file.CopyToAsync(stream);
+        }
+
+        return Ok();
+    }
 }

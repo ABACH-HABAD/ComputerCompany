@@ -77,7 +77,7 @@ public class ComponentDataBaseDialogViewModel<T> : BaseDataDialogViewModel<T> wh
             }
             else if (typeof(T) == typeof(MotherboardModel))
             {
-                MotherboardModel component = new(_id, Name, Description, Price, Count, Model, Chipset, Model);
+                MotherboardModel component = new(_id, Name, Description, Price, Count, Model, Chipset, Socket);
                 _data = (component as T)!;
             }
             else if (typeof(T) == typeof(MemoryModel))

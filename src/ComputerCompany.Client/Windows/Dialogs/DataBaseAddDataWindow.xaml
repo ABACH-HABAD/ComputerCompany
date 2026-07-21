@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:ComputerCompany.Presentation.Windows.Dialogs"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="DataBaseAddDataWindow" Height="400" Width="500">
+        Title="DataBaseAddDataWindow" Height="400" Width="600">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="4*"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <ScrollViewer>
             <StackPanel  x:Name="AllFields">
@@ -18,65 +18,65 @@
                     <TextBlock Text="debug:"/>
                     <TextBlock Text="{Binding Mode}"/>
                 </StackPanel>
-                <Grid x:Name="Model" Margin="5">
+                <Grid x:Name="DisplayName" Margin="5">
                     <TextBlock Text="Название" FontSize="20"/>
-                    <TextBox Text="{Binding Model}"   FontSize="20" Width="250" HorizontalAlignment="Right"/>
+                    <TextBox  Text="{Binding Name}"  MinWidth="350" FontSize="20"  HorizontalAlignment="Right"  VerticalAlignment="Center"/>
                 </Grid>
                 <Grid x:Name="Description" Margin="5">
                     <TextBlock Text="Описание" FontSize="20"/>
-                    <TextBox Text="{Binding Description}" TextWrapping="Wrap" MaxHeight="100"  FontSize="20" Width="250" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding Description}" MinWidth="350" TextWrapping="Wrap" MaxHeight="100"  FontSize="20" Width="250" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="Price" Margin="5" >
                     <TextBlock Text="Цена" FontSize="20"/>
-                    <TextBox Text="{Binding Price}" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding Price}" MinWidth="350" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="Count" Margin="5">
                     <TextBlock Text="Количество" FontSize="20"/>
-                    <TextBox Text="{Binding Count}"  FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding Count}" MinWidth="350"  FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
-                <Grid x:Name="DisplayName" Margin="5">
+                <Grid x:Name="Model" Margin="5">
                     <TextBlock Text="Модель" FontSize="20"/>
-                    <TextBox  Text="{Binding Name}"  FontSize="20" Width="250" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding Model}"  MinWidth="350"  FontSize="20" Width="250" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="Socket" Style="{StaticResource SocketProperty}">
                     <TextBlock  Text="Сокет" FontSize="20"/>
-                    <TextBox Text="{Binding Socket}" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding Socket}" MinWidth="350" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="ModelCore" Style="{StaticResource ModelCoreProperty}">
                     <TextBlock  Text="Видеоядро" FontSize="20"/>
-                    <TextBox Text="{Binding ModelCore}" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding ModelCore}"  MinWidth="350" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="Videomemory" Style="{StaticResource VideomemoryProperty}">
                     <TextBlock x:Name="VideomemoryText" Text="Видеопамять" FontSize="20"/>
-                    <TextBox Text="{Binding VideoMemory}" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding VideoMemory}" MinWidth="350" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="Size" Style="{StaticResource SizeProperty}">
                     <TextBlock Text="Объём" FontSize="20"/>
-                    <TextBox Text="{Binding Size}" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding Size}" MinWidth="350" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="Type" Style="{StaticResource TypeProperty}">
                     <TextBlock Text="Тип" FontSize="20"/>
-                    <TextBox Text="{Binding Type}" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding Type}" MinWidth="350" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="Frequency" Style="{StaticResource FrequencyProperty}">
                     <TextBlock Text="Частота" FontSize="20"/>
-                    <TextBox Text="{Binding Frequency}" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding Frequency}" MinWidth="350" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="Chipset" Style="{StaticResource ChipsetProperty}">
                     <TextBlock Text="Чипсет" FontSize="20"/>
-                    <TextBox Text="{Binding Chipset}" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding Chipset}" MinWidth="350" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="Power" Style="{StaticResource PowerProperty}">
                     <TextBlock Text="Мощность" FontSize="20"/>
-                    <TextBox Text="{Binding Power}" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding Power}" MinWidth="350" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="FormFactor" Style="{StaticResource FromFactorProperty}">
-                    <TextBlock Text="Формафактор" FontSize="20"/>
-                    <TextBox Text="{Binding FormFactor}" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBlock Text="Формфактор" FontSize="20"/>
+                    <TextBox Text="{Binding FormFactor}" MinWidth="350" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
                 <Grid x:Name="Certification" Style="{StaticResource CertificationProperty}">
                     <TextBlock Text="Сертификация" FontSize="20"/>
-                    <TextBox Text="{Binding Certification}" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding Certification}" MinWidth="350" FontSize="20" Width="250" Margin="10,0,0,0" HorizontalAlignment="Right"/>
                 </Grid>
             </StackPanel>
         </ScrollViewer>

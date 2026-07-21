@@ -14,10 +14,12 @@ using ComputerCompany.Application.Services.Validation.ComponentValidators;
 using ComputerCompany.Application.Client.Abstractions.Servies.Api;
 using ComputerCompany.Application.Client.Abstractions.Servies.Dialog;
 using ComputerCompany.Application.Client.Abstractions.Servies.Token;
+using ComputerCompany.Application.Client.Abstractions.Servies.Shopping;
 using ComputerCompany.Application.Client.Abstractions.ViewModels;
 using ComputerCompany.Application.Client.Services.Api;
 using ComputerCompany.Application.Client.Services.Data;
 using ComputerCompany.Application.Client.Services.Security;
+using ComputerCompany.Application.Client.Services.Shopping;
 using ComputerCompany.Application.Client.ViewModels;
 using ComputerCompany.Application.Client.ViewModels.Dialogs;
 using ComputerCompany.Application.Client.ViewModels.UserControls;
@@ -80,6 +82,8 @@ public static class DependecyEnjectionExtensions
         services.AddScoped<IValidator<PowerUnitModel>, PowerUnitValidator>();
         services.AddScoped<IValidator<FrameModel>, FrameValidator>();
 
+        services.AddScoped<IAsseblyCheckerService, AssemblyCheckerService>();
+
         return services;
     }
 
@@ -96,6 +100,8 @@ public static class DependecyEnjectionExtensions
         services.AddScoped<INavigationService, NavigationService>();
         services.AddScoped<IDialogService, WindowDialogService>();
         services.AddScoped<IApiClientService, ApiService>();
+
+        services.AddSingleton<IShoppingCartService, ShoppingCartService>();
         
         services.AddValidation();
         services.AddDataServices();
@@ -132,7 +138,7 @@ public static class DependecyEnjectionExtensions
         services.AddScoped<BuildViewModel>();
         services.AddScoped<UpgradeViewModel>();
         services.AddScoped<ProfileViewModel>();
-        services.AddScoped<BasketViewModel>();
+        services.AddScoped<ShoppingCartViewModel>();
         services.AddScoped<ComponentsViewModel>();
         services.AddScoped<UpgradeViewModel>();
 

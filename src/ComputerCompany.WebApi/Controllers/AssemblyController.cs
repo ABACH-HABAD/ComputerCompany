@@ -35,7 +35,7 @@ public class AssemblyController : BaseDataController<AssemblyModel, IAssemblySer
         return await base.GetAsync(service);
     }
 
-    [Authorize]
+    [AllowAnonymous]
     [HttpPost]
     public override async Task<IActionResult> PostAsync([FromBody] DataRequest<AssemblyModel> request, [FromServices] IAssemblyService service)
     {
@@ -43,7 +43,9 @@ public class AssemblyController : BaseDataController<AssemblyModel, IAssemblySer
         bool isAdmin = User.IsInRole("Admin");
 
         if (!Guid.TryParse(currentUserIdString, out Guid currentUserId)) return Unauthorized();
+        if (request.Data.Account.Id == Guid.Empty) request = request with { Data = request.Data with { Account = request.Data.Account with { Id = currentUserId } } };
         if (!isAdmin && currentUserId != request.Data.Account.Id) return Forbid();
+
 
         return await base.PostAsync(request, service);
     }

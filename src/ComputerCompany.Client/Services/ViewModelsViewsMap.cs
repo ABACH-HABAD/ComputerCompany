@@ -45,7 +45,7 @@ public class ViewModelsViewsMap : IViewModelsViewsMap
         {typeof(BuildViewModel), typeof(ClientBuildUserControl)},
         {typeof(ComponentsViewModel), typeof(ClientComponentUserControl)},
         {typeof(HomeViewModel), typeof(ClientMainUserControl)},
-        {typeof(BasketViewModel), typeof(ClientShoppingCartUserControl)},
+        {typeof(ShoppingCartViewModel), typeof(ClientShoppingCartUserControl)},
         {typeof(UpgradeViewModel), typeof(ClientUpgradeUserControl)},
         {typeof(ManagerDataBaseViewModel), typeof(ManagerDataBaseUserControl)},
         {typeof(ProfileViewModel), typeof(Profile)},

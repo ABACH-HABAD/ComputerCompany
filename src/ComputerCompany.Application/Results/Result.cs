@@ -34,6 +34,17 @@ public class Result
         return new Result { IsSuccess = false, Message = stringBuilder.ToString() };
     }
 
+    public static Result Fail(IEnumerable<string> messages)
+    {
+        StringBuilder stringBuilder = new();
+        foreach (string message in messages)
+        {
+            stringBuilder.Append(message);
+        }
+
+        return new Result { IsSuccess = false, Message = stringBuilder.ToString() };
+    }
+
     internal static Result FromJson(ResultJson resultJson)
     {
         Result result = new()

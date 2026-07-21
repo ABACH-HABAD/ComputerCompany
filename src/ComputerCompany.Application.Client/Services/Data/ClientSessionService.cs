@@ -53,6 +53,8 @@ ISessionService
             TokenRefreshRequest tokenRefreshRequest = new(refreshToken);
             ApiResult apiResult = await _apiClient.PutAsync(_address + "/refresh", tokenRefreshRequest, retryIfUnauthorized: false, cancellationToken: cancellationToken);
 
+            if (apiResult.StatusCode == 0) return LoginResult.Fail(ApiResult.NotConnectedMessage);
+
             if (!apiResult.IsSuccess) return LoginResult.Fail(apiResult.Message);
             else
             {

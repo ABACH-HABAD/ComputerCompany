@@ -1,7 +1,6 @@
 ﻿using ComputerCompany.Application.Abstractions.Services;
 using ComputerCompany.Application.Abstractions.Services.Data;
 using ComputerCompany.Application.Client.Abstractions.Servies.Dialog;
-using ComputerCompany.Application.Client.Abstractions.Servies.Shoping;
 using ComputerCompany.Application.Client.ViewModels.Commands;
 using ComputerCompany.Application.Client.ViewModels.Dialogs;
 using ComputerCompany.Application.Results;

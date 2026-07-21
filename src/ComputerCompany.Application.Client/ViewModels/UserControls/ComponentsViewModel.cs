@@ -4,10 +4,10 @@ using Microsoft.Extensions.DependencyInjection;
 using ComputerCompany.Core.Models;
 using ComputerCompany.Application.Abstractions.Services;
 using ComputerCompany.Application.Abstractions.Services.Data;
-using ComputerCompany.Application.Client.Abstractions.Servies.Shoping;
 using ComputerCompany.Application.Client.ViewModels.Commands;
 using ComputerCompany.Application.Results;
 using ComputerCompany.Application.Client.Abstractions.Servies.Dialog;
+using ComputerCompany.Application.Client.Abstractions.Servies.Shopping;
 
 namespace ComputerCompany.Application.Client.ViewModels.UserControls;
 
@@ -57,7 +57,7 @@ public class ComponentsViewModel : BaseUserControlViewModel
         _scopeFactory = scopeFactory;
 
         UpdateDataCommand = new AsyncRelayCommand<string>(UpdateDataAsync);
-        AddToBasketCommand = new RelayCommand<BaseComponentModel>(AddToBasket);
+        AddToBasketCommand = new RelayCommand<BaseComponentModel>(AddToShoppingCart);
     }
 
     private async Task UpdateDataAsync<T>(IDataService<T> service) where T : BaseComponentModel
@@ -110,7 +110,7 @@ public class ComponentsViewModel : BaseUserControlViewModel
         }
     }
 
-    private void AddToBasket(BaseComponentModel component)
+    private void AddToShoppingCart(BaseComponentModel component)
     {
         using IServiceScope serviceScope = _scopeFactory.CreateScope();
         IShoppingCartService shoppingCartService = serviceScope.ServiceProvider.GetRequiredService<IShoppingCartService>();

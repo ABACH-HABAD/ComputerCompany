@@ -5,6 +5,7 @@ namespace ComputerCompany.Application.Client.Services.Api.Results;
 
 public class ApiResult : DataResult<HttpContent>
 {
+    public const string NotConnectedMessage = "NotConnected";
     public HttpStatusCode StatusCode { get; init; }
 
     private ApiResult()
@@ -31,4 +32,6 @@ public class ApiResult : DataResult<HttpContent>
             Message = message
         };
     }
+
+    public static ApiResult NotConnected() => Fail(NotConnectedMessage);
 }

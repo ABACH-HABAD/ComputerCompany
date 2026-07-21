@@ -8,6 +8,4 @@
   <Project Path="src/ComputerCompany.Core/ComputerCompany.Core.csproj" />
   <Project Path="src/ComputerCompany.Infrastructure/ComputerCompany.Infrastructure.csproj" />
   <Project Path="src/ComputerCompany.WebApi/ComputerCompany.WebApi.csproj" />
-  <Project Path="src/ComputerCompanyClasses/ComputerCompany.Legacy.csproj" Id="18a4b151-c5ce-4a6c-b739-bd5f9c219912" />
-  <Project Path="src/WpfApp9/ComputerCompany.csproj" />
 </Solution>

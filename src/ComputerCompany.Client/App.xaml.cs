@@ -1,15 +1,16 @@
-﻿using System.IO;
-using System.Windows;
+﻿using ComputerCompany.Application.Abstractions.Services;
+using ComputerCompany.Application.Abstractions.Services.Data;
+using ComputerCompany.Application.Client.Abstractions.Servies.Dialog;
+using ComputerCompany.Application.Client.Services.Api;
+using ComputerCompany.Application.Client.Services.Api.Results;
+using ComputerCompany.Application.Client.ViewModels;
+using ComputerCompany.Application.Results;
+using ComputerCompany.Application.Services.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ComputerCompany.Application.Abstractions.Services;
-using ComputerCompany.Application.Abstractions.Services.Data;
-using ComputerCompany.Application.Services.Data;
-using ComputerCompany.Application.Results;
-using ComputerCompany.Application.Client.Abstractions.Servies.Dialog;
-using ComputerCompany.Application.Client.Services.Api;
-using ComputerCompany.Application.Client.ViewModels;
+using System.IO;
+using System.Windows;
 
 namespace ComputerCompany.Presentation;
 
@@ -68,12 +69,16 @@ public partial class App : System.Windows.Application
 
         //Пытаемся авторизоваться по уже имеющимуся токену
         bool loadAuthWindow = true;
+        bool serverIsNotConnected = false;
         using (IServiceScope scope = scopeFactory.CreateScope())
         {
             ISessionService sessionService = scope.ServiceProvider.GetRequiredService<ISessionService>();
 
             LoginResult logingResult = await sessionService.RefreshTokensAsync(default!);
             if (logingResult.IsSuccess) loadAuthWindow = false;
+
+            //Если сервер не отвечает
+            if (!logingResult.IsSuccess && logingResult.Message == ApiResult.NotConnectedMessage) serverIsNotConnected = true;
         }
 
         using (IServiceScope scope = scopeFactory.CreateScope())
@@ -84,6 +89,9 @@ public partial class App : System.Windows.Application
             if (loadAuthWindow)
             {
                 WelcomeViewModel welcomeViewModel = scope.ServiceProvider.GetRequiredService<WelcomeViewModel>();
+
+                welcomeViewModel.TryAutoConnect = serverIsNotConnected; //Пытаемся восстановить подключение если его нету
+
                 welcomeViewModel.Closed += (s, e) => //Подписываемся на событие, чтобы перейти со страницы авторизации на главную страницу
                 {
                     using IServiceScope clouseScope = scopeFactory.CreateScope();
